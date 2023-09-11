@@ -68,7 +68,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    gap: 10px;
+    gap: 5px;
     place-items: center;
     box-sizing: border-box;
     padding: 40px;
@@ -88,12 +88,24 @@ body {
     
 }
 
+#btn-container .number:hover {
+    background-color: #d0caca;
+}
+
 .operator {
     background-color: #377F86;
+}
+
+.operator:hover {
+    background-color: #27686e;
 }
 
 #btn-container #equal-btn {
     width: 100%;
     background-color: #CA5502;
     grid-column: span 2;
+}
+
+#btn-container #equal-btn:hover {
+    background-color: #e96202;
 }
